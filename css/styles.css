@@ -3,8 +3,9 @@ font-family: "Roboto", sans-serif; */
 
 body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
+
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul,ol {
@@ -29,6 +30,8 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -37,6 +40,8 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
@@ -57,7 +62,9 @@ button {
 .menu-link:hover,.menu-link:focus {
     color: #404bbf;
 }
-.address {}
+.address {
+    font-style: normal
+}
 
 .contacts {}
 
@@ -68,6 +75,7 @@ button {
     line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contacts-link:hover,.contacts-link:focus {
@@ -90,7 +98,7 @@ button {
 }
 
 .hero-btn {
-        
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -114,6 +122,8 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -122,6 +132,8 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
 }
